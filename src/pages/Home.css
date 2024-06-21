@@ -1,0 +1,82 @@
+/* Home.css */
+
+.home-container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .home-hero {
+    background-image: url('https://www.themealdb.com/images/media/meals/llcbn01574260722.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    /* position: relative; */
+  }
+  
+  .hero-text {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .hero-text h1 {
+    font-size: 3rem;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .hero-text p {
+    font-size: 1.5rem;
+    margin: 10px 0 0;
+  }
+  
+  .home-content {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+  }
+  
+  .home-content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .home-featured-meals {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+  }
+  
+  .meal-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+  }
+  
+  .meal-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .meal-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .meal-card h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 10px 0;
+    font-family: 'Arial', sans-serif;
+    padding: 0 10px;
+  }
+  

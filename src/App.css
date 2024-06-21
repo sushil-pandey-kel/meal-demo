@@ -1,0 +1,26 @@
+/* App.css */
+
+.app-container {
+  position: relative;
+}
+
+.main-content {
+  width: 100%;
+  background: #f4f4f4;
+  min-height: 100vh;
+}
+.menu-icon{
+position: absolute;
+left: 1rem;
+top: 1rem;
+z-index: 9;
+cursor: pointer;
+}
+
+.humIcon{
+  font-size: 24px;
+}
+
+.offcanvas-body {
+  padding: 0!important;
+}
